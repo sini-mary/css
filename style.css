@@ -1,0 +1,341 @@
+.ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    margin-left: 0px;
+    font-size: larger;
+    
+  
+
+
+}
+#nav{
+    display: flex;
+    padding-right: 10%;
+
+}
+#fur{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#home{
+    color: #ff4400;
+}
+#red{
+    background-color: red;
+    justify-content: right;
+    margin-left: 10%;
+    width: 80%;
+    word-spacing: 10%;
+    height: 550px;  
+
+}
+.align{
+    display: flex;
+}
+#p1{
+font-size: 70px;
+
+
+}
+#p2{
+    font-family: 'Times New Roman', Times, serif;
+}
+#button1{
+   
+    background-color: red;
+    height: 40px;
+    border-radius: 9px;
+    width: 29%;
+    text-align: center;
+    margin-left: 30%;
+
+}
+#fix{
+    color: #cd4166;
+}
+.img1{
+    position: relative;
+    height: 50%;
+    width: 50%;
+   
+
+}
+#h1{
+    text-align: center;
+    font-size: xx-large;
+}
+#s1{
+   display: flex;
+}
+#s1a{
+ background-color: purple;
+}
+.img2{
+    height: 250px;
+  
+    
+}
+#s2{
+    display: grid;
+    position: relative;
+    left:8%;
+
+}
+#s2a{
+background-color: #cd4166;
+}
+#prize{
+    display: flex;
+
+}
+#s3{
+    display: flex;
+    position: relative;
+    left:9%;
+    
+}
+#p4{
+    word-spacing: 20px;
+}
+.style{
+    display: flex;
+    padding-right: 10px;
+    margin-right: 10%;
+    
+}
+#adidas{
+    padding-left: 50px;
+    background-color: aliceblue;
+    margin-right: 3%;
+    
+}
+.style2{
+    position: relative;
+    top: 100px;
+    display: flex;
+}
+#button3{
+    text-align: center;
+    font: 700;
+    width: 13%;
+    height: 30px;
+    background-color: rgb(236, 34, 34);
+    margin-left: 30%;
+}
+.lily{
+    display: flex;
+}
+.dandelion{
+    display: flex;
+    padding-left: 13%;
+}
+.word{
+    text-decoration: line-through;
+    
+}
+#jon{
+    font: 100px;
+}
+.money{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+#sub{
+  text-align: center;
+  background-color: pink;
+  height: 250px;
+  width: 70%;
+  margin-left: 20%;
+  border-radius: 15px;
+}
+#ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+     margin-left: 100px;
+     float: left;
+     
+}
+.last{
+   display: flex;
+   list-style-type: none;
+   margin-left: 20%;
+   margin-top: 10%;
+   background-color: #ff4400;
+   width: 70%;
+   height: 150px;
+}
+.list{
+    list-style-type: none;
+}
+#al1{
+    display: flex;
+    list-style-type: none;
+    word-spacing: 5px;
+    font-size: 15px;
+}
+#navy{
+    display: flex;
+}
+#navy1{
+    justify-content: left;
+    padding-left: 300px;
+   
+    
+}
+#images{
+    display: flex;
+}
+#a{
+    width: 100px;
+
+}
+.core{
+    display: flex;
+}
+#core1{
+    position: relative;
+    top: 80px;
+}
+#min{
+    color: orangered;
+}
+#button15{
+    height: 40px;
+    width: 120px;
+    border-color: red;
+    background-color: rgb(222, 211, 211);
+}
+#button25{
+    height: 40px ;
+    margin-left: 20%;
+}
+#s{
+    text-decoration: line-through;
+}
+#selected{
+    letter-spacing: 4px;
+}
+#size{
+    letter-spacing: 30px;
+}
+.img15{
+    transform: rotate(50deg);
+    height: 160px;
+}
+#many{
+    display: flex;
+    margin-left: 20%;
+    
+}
+#l{
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+     margin-left: 100px;
+     float: left;
+     
+}
+.last9{
+   display: flex;
+   list-style-type: none;
+   margin-top: 10%;
+   background-color: #e95722;
+   width: 90%;
+   height: 150px;
+}
+.list9{
+    list-style-type: none;      
+}
+.b3{
+    width: 100px;
+    background-color: #e95722;
+    height: 30px;
+}
+
+    
+
+/* 
+@media only screen and (min-width:320px){
+    .body{
+        display: block;
+        
+        width: 70%;
+        
+    }
+    #nav{
+        position: relative;
+        width: 50%;
+        right: 3%;
+        display: grid;
+        grid-template-columns: repeat(1fr);
+
+    }
+   / #red{
+        position: relative;
+
+    } */
+        
+
+
+@media only screen and (min-width:300px){
+   
+
+    
+.ul{
+    display: grid;
+    grid-template-columns: repeat(1,1fr) ;
+}
+#prize{
+    
+    grid-template-columns: repeat(1,1fr);
+}
+#s2{
+    
+    grid-template-columns: repeat(1,1fr);
+
+}
+#many{
+    
+    grid-template-columns: repeat(1,1fr);
+}
+.money{
+   
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+   padding-left:10px ;
+   width: 30px;
+}
+.style{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.style2{
+    
+    grid-template-columns: repeat(1,1fr);
+}
+.dandelion{
+   
+    grid-template-columns: repeat(1,1fr);
+}
+#ul{
+    grid-template-columns: repeat(1,1fr) ;
+}
+#core{
+    
+    grid-template-columns: repeat(2,1fr) ;
+}
+    
+
+    
+
+}
+
+    
+
+
+    
+
+
+
