@@ -199,7 +199,9 @@ font-size: 70px;
 }
 .core{
     display: flex;
+    
 }
+
 #core1{
     position: relative;
     top: 80px;
@@ -330,11 +332,70 @@ font-size: 70px;
     position: absolute;
     top: 90px;
    }
-   @media (max-width:600px){
+   #z{
+    display: flex;
+    
+    overflow-x: hidden;
+    font-size: 20px;
+   }
+   #y{
+    display: flex;
+    list-style-type: none;
+    
+    width: 150%;
+
+   }
+   #x{
+     display: flex;
+     list-style-type: none;
+     margin-right: 20px;
+    
+     font: 30px;
+    width: 120%;
+    background-image: url(/images/bg_720-removebg-preview__1_.png);
+    background-repeat: no-repeat;
+    
+   
+   }
+   #x1{
+     
+    padding-left: 40%;
+   }
+   #form1{
+    width: 50%;
+    border-radius: 10px;
+    height: 40px;
+    
+   }
+   #form3{
+    height: 100px;
+    width:50%;
+   }
+   .r{
+     text-align: center;
+   }
+   #button23{
+    height:50px ;
+    background: linear-gradient(to right, orangered, red);
+    border-radius: 4px;
+   }
+   .bbb{
+    height: 30px;
+    
+   }
+   .body{
+    background-color: whitesmoke;
+   }
+   #f{
+    color: #ff4400;
+    
+   }
+   
+   
     .story1s{
-       
-       display: grid;   
+              display: grid;   
        grid-template-columns: repeat(1,1fr);
+       width: 20%;
    }
    .navs{
        display: inline-block;
@@ -343,71 +404,69 @@ font-size: 70px;
        display: flexbox ;
        background-color: rgb(255, 81, 0);
    }
-    #prize{
-      
-      display: grid;
-      width: 30%;
-      background-color: white;
+    @media(min-width:230px) and (max-width:800px){
+        
+        #prize{
+            display: grid;
+            grid-template-columns:1fr ;
+        }
+        .p1{
+            display: flex;
+            justify-content: center;
+            align-items: centre;
+            flex-direction: column;
+        }
+        .style{
+            display: grid;
+            grid-template-columns: repeat(1,2fr);
+        }
+        .style2{
+            display: grid;
+            grid-template-columns: repeat(1,2fr);
+        }
+        .dandelion{
+            display: grid;
+            grid-template-columns: repeat(1,2fr);
+        }
+        #navy{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .img1{
+        max-width: min-content;
+        margin-left:2%;
+        overscroll-behavior-block: 3px;
+        }
+        
+        .bodyx{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .body{
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            flex-direction: column;
+
+            
+        }
+        .main{
+            display: flex;
+            justify-content: left;
+            flex-direction: column;
+            align-content: center;  
+        }
+
+         .core{
+            display: grid;
+            grid-template-columns: 1,1fr;
+            align-items: center;
+            justify-content: center;
+         }
+         #many{
+            display: grid;
+            grid-template-columns: 2fr;
+         }
+
     }
-   #s2{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-   }
-   #adidas{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-   }
-   .style{
-    display: block;
-   min-width: 400px;
-   }
-   .style2{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-   }
-   #puma{
-    display: grid;
-    grid-template-rows: repeat(1,1fr);
-   }  
-   .style2a{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    
-   }
-   .dandelion{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-   }
-   #red{
-  
-   }
-   .core{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-   }
-   #many{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-   }
-   #red{
-    display: flex;
-    flex-direction: column;
-   }
-   
-
-
-
-   }
-   @media (min-width:700px){
-   
-   }
-
-
-
-    
-
-
-    
-
-
-
